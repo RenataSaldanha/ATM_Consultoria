@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheEmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="111dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="72dp"
+        android:text="Empresa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget risus finibus, hendrerit elit quis, posuere tellus. Quisque mi urna, auctor eu commodo ut, venenatis nec ante. Proin tempor elit vestibulum magna convallis sagittis. Integer ac posuere purus. Praesent eu lacus ut nibh gravida suscipit. In in sapien condimentum sem vehicula tincidunt in at orci. Nunc nec varius justo.  Aliquam cursus venenatis magna, in blandit ante pretium id. Vestibulum varius, nulla a lacinia hendrerit, sem sem consequat lectus, vel ultrices neque nisi et urna. Fusce ullamcorper mattis leo, non imperdiet ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean metus justo, placerat vitae est eget, tristique laoreet ligula. Etiam eget ipsum ex. Vestibulum viverra vehicula orci vitae mattis. Morbi vel nibh id diam pulvinar accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut aliquam sit amet metus condimentum fringilla. Aliquam erat volutpat. Duis at mollis eros." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
